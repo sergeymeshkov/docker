@@ -52,7 +52,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <imageName>smeshkov/${artifactId}:${version}</imageName>
+                    <imageName>smeshkov/docker:latest</imageName>
                 </configuration>
             </plugin>
         </plugins>
