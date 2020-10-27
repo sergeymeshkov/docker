@@ -10,7 +10,7 @@ public class DockerController {
 
 	@GetMapping
 	public String sayHiToDocker() {
-		return "Hi, Docker!!!";
+		return "Hello from another Docker!!!";
 	}
 
 }
